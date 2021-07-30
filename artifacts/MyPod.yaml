@@ -1,0 +1,13 @@
+apiVersion: ibm.com/v1beta1
+kind: Zbm 
+metadata:
+  name: zbusybox
+spec:
+  containers:
+  - image: busybox
+    command:
+      - sleep
+      - "300"
+    imagePullPolicy: IfNotPresent
+    name: zbusybox
+  restartPolicy: Always

@@ -1,0 +1,6 @@
+apiVersion: "ibm.com/v1alpha1"
+kind: Zbm
+metadata:
+  name: sampleobj
+spec:
+  deploymentName: sampleobj
